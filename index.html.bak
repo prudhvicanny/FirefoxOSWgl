@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<HTML>
+ <HEAD>
+  <TITLE> Movie Express</TITLE>
+  <!--<META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">-->
+ <!-- <link href="main.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript">
+    var x=0;
+    var images=new Array();
+	images[0]='img1.jpg';
+	images[1]='img2.jpg';
+	images[2]='img3.jpg';
+	var imgtg=document.getElementByTag("img");
+      setTimeout(changeImage(),5000);
+	function changeImage(){
+      imgtg.src='img1.jpg';
+	}
+  </script>-->
+ </HEAD>
+
+ <BODY>
+    <img src="startimg.jpg" />
+</BODY>
+</HTML>

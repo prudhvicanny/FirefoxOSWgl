@@ -1,0 +1,59 @@
+ html, body, div,header, footer, nav, h1, h2, h3, h4, h5, h6,img, ol, ul, li{
+	margin: 0;
+	padding: 0;
+	border: 0;
+  }
+  @font-face {
+	font-family: 'venus rising';
+	src: url('venus rising rg.ttf') format('truetype');
+}
+  /*body{
+	  background-color: #FFFFFF;
+  }*/
+  
+  #title{
+	  height:45px;
+	  width: 100%;
+	  margin: 0 auto;
+	  padding: 0 0px;
+	  background-color:rgb(0,120,110);
+	  text-align:left;
+	  position:fixed;
+  }
+  h4 {
+	padding-left:10px;
+	font-size: 20px;
+	font-family: "venus rising";
+	color: #FFFFFF;
+	line-height: 40px;
+	font-stretch: normal;
+	direction: ltr;
+	position: absolute;
+	font-weight:600;
+  }  
+
+body{
+   background-color:#dcdcdc;
+   }
+#img{
+  margin-top:50px;
+  padding-left:30px;
+}
+div.background{
+	width:100%;
+	}
+#foot ul{
+		margin: 0;
+		padding: 0;
+		list-style-type:none;
+	}
+	#foot ul li{
+		display:inline;
+		padding:2px;
+	}
+	#fb{float:left;
+	padding-left:10px;}
+	/*#gp{float:none;}*/
+	#gp{padding-left:90px;}
+	#tw{float:right;
+	padding-right:10px;)

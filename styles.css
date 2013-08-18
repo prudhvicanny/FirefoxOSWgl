@@ -1,0 +1,45 @@
+.des
+{
+  padding-left:160px;
+  margin-top:-270px;
+  }
+  .button
+   {
+    background: #707070;
+    color:#fff;
+	border: 1px solid #045E94;
+    padding: 2px 12px 2px 12px;
+    cursor:pointer;
+	width:150px;
+	margin-top:10px;
+	}
+	#but2
+	{
+	  position:relative;
+	  width:150px;
+	  padding-left:50%;
+	  margin-top:-34px;
+	  cursor:pointer;
+	  }
+	  .button1
+   {
+    background: #707070;
+    color:#fff;
+	border: 1px solid #045E94;
+    padding: 2px 12px 2px 12px;
+    cursor:pointer;
+	width:150px;
+	margin-top:25px;
+	}
+	#but3
+	{
+	  position:relative;
+	  width:150px;
+	  padding-left:50%;
+	  margin-top:-49px;
+	  cursor:pointer;
+	  }
+	  #frame
+	  {
+	   padding-left:55%;
+	   }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<HTML>
+ <HEAD>
+  <TITLE> Movie Express</TITLE>
+  <!--<META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">-->
+  <link href="main.css" rel="stylesheet" type="text/css">
+  
+ </HEAD>
+
+ <BODY>
+    <div id="title">
+    <header>
+      <h4>Movie Express</h4>
+      </header>
+     </div>
+     <div class="background">
+    <img id="img" src="startimg.jpg" onMouseOver="stopIt()" onMouseOut="changeImage()" onClick="navigat()">
+    </div>
+    <div id="foot">
+    <ul>
+     <li><img src="fb.jpeg" id="fb" onClick="document.location.href='https://www.facebook.com/'"></li>
+     <li><img src="gp.png"  id="gp" onClick="document.location.href='https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/?gpsrc%3Dogpy0%26tab%3DwX%26partnerid%3Dogpy0'"></li>
+     <li><img src="twit.png" id="tw"onClick="document.location.href='https://twitter.com/'"></li>
+     </ul>
+    </div>
+    <script type="text/javascript">
+    var x=0;
+	
+	var links=new Array();
+	links[0]='jobs.html';
+	links[1]='citybones.html';
+	links[2]='kickass.html';
+	links[3]='worldends.html';
+    var images=new Array();
+	images[0]='images/jobs.jpg';
+	images[1]='images/citybones.jpg';
+	images[2]='images/kickass.jpg';
+	images[3]='images/worldends.jpg';
+	var t;
+	var buf;
+	var temp;
+    t=setTimeout(changeImage(),2000);
+	function changeImage(){
+		
+		var r=document.getElementById("img");
+		r.src=images[x]
+	    x++;
+		temp=x;
+	   if(x>=images.length){
+		   x=0;
+	   }
+	   t=setTimeout(changeImage,2000);
+	}
+	function stopIt(){
+		clearTimeout(t);
+		buf=1;
+	}
+	function navigat(){
+		if(buf===1){
+		document.location.href=links[temp-1];	
+		}
+	}
+  </script>
+</BODY>
+</HTML>
